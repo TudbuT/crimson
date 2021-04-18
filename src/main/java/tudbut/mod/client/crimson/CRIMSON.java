@@ -104,7 +104,7 @@ public class CRIMSON {
         if(globalConfig.getBoolean("startup#show_credit")) {
             // Show the "TTC by TudbuT" message
             ThreadManager.run(() -> {
-                JOptionPane.showMessageDialog(null, "TTC by TudbuT");
+                JOptionPane.showMessageDialog(null, "CRIMSON by TudbuT");
             });
         }
         sa = new Date().getTime() - sa;
